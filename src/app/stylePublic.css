@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+
+body{
+    margin: 0;
+    background: black;
+    padding: 0;
+}
+.bodyPublic{
+    margin: 0;
+    padding: 0;
+    background-image: url('../../public/logo_la_kabra.jpeg');
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.lateralColumn1{
+    background-image: url('../../public/logo_mega_fiesta.jpg');
+    background-size: contain;
+    background-position: center;
+ position: fixed;
+ width: 14vw;
+ height: 100vh;
+}
+.lateralColumn2{
+    background-image: url('../../public/logo_mega_fiesta.jpg');
+    background-size: contain;
+    background-position: center;
+ position: fixed;
+ top: 0px;
+ right: 0px;
+ width: 14vw;
+ height: 100vh;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style:  none;
+    display: flex;
+    justify-content: center;
+}
+
+li img {
+    border: 0.2em solid #ff6666 ;
+    max-width: 70vw;
+    max-height: 1000px;
+    margin: 1em;
+    border-radius: 3em 3em 3em 3em;
+
+}
+
+li h2 {
+    font-family: 'Edu SA Beginner', cursive;
+    max-width: calc(70vw - .8em);
+    padding: .4em;
+    background-color: #11111199;
+    color: #ffd044;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1em 1em 1em 1em;
+    border: 0.05em solid #ff6666 ;
+}
+
